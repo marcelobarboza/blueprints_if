@@ -1,0 +1,40 @@
+\documentclass[addpoints,12pt]{exam}
+\usepackage[utf8]{inputenc}
+\usepackage[english,portuguese]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\hqword{Question}
+\hpword{Points}
+\hsword{Score}
+\begin{document}
+\begin{center}
+    \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+        Instituto Federal Goiano & Campus Urutaí
+    \end{tabular*}
+\end{center}
+\hrulefill
+\begin{center}
+    \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}l@{\extracolsep{\fill}}r}
+        {{ dados.local_e_data }} & & {{ dados.docente }} \\
+        {{ dados.prova }}\textsuperscript{\d a} Prova & {{ dados.disciplina }} & {{ dados.curso }} \\
+        {{ aluno }} & & {{ matricula }}
+    \end{tabular*}
+\end{center}
+\hrulefill
+\begin{center}
+    \gradetable[h][questions]
+\end{center}
+\hrulefill
+\begin{questions}
+    \question[5]
+    Seja $ G $ um grupo cíclico finito de ordem $ {{ random.0 }} $.
+    Mostre que $ G $ possui um subgrupo de ordem $ d $, para cada
+    $ d\in\{z\in\mathbb{Z}:0<d\mid {{ random.0 }} \} $.
+    \question[5]
+    Mostre que a função
+    \[ \mathbb{R}\longrightarrow(0,\infty),\quad t\longmapsto {{ random.1 }}^t, \]
+    é um isomorfismo de grupos.
+\end{questions}
+\end{document}

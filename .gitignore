@@ -1,0 +1,9 @@
+# files
+geckodriver.log
+lib64
+pyvenv.cfg
+# folders
+bin/*
+lib/*
+pkgs/__pychache__/*
+share/*

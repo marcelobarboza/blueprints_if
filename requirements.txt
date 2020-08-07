@@ -1,0 +1,9 @@
+sphinx
+sphinx_rtd_theme
+sphinxcontrib-bibtex
+selenium
+pandas
+openpyxl
+odfpy
+jinja2
+npyscreen
